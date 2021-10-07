@@ -2,7 +2,7 @@
 
   
 <head>
-  <title>This is my first website</title>
+  <title>Check out my Website!</title>
   <style>
   
   p {
@@ -21,8 +21,39 @@
 	background-color: #404040;
     color: white;
 	}
+
+  #headerBox{
+    width: 100%;
+    height: 15px;
+    background-color: #0C0032;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding:10px;
+  }
+
+  #blog-link{
+    background-color: #240090;
+    height: 15px;
+    width: 80px;
+    margin: -30px 0px 0px 0px;
+  }
+
+  #blog-link:hover{
+    background-color: #111013;
+    height: 20px;
+    width: 90px;
+    margin: -30px 0px 0px 0px;
+  }
+
+  #blog-font{
+    text-align: center;
+    font-size: 2px;
+  }
     
    .box{
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
    	border-style: double;
     border-color: black;
     border-width: 10px;
@@ -35,6 +66,7 @@
     background-color: #181818;
     padding: 0px 0px 0px 0px;
     margin: 5px 10px 5px 10px;
+    border-radius: 15%;
    }
    
    .image-style{
@@ -48,7 +80,16 @@
 </head>
   
 <body>
-<div class="box">
+  <header>
+    <nav id="headerBox">
+      <div id="blog-link">
+        <h6 id=blogFont>
+          <a style="opacity: .7; color:white" href="https://johnschw.github.io/blog.html" target="_blank"> BLOG</h6></a>
+       </div>
+    </nav>
+  </header>
+
+<div class="box" style="margin: 50px 0px 0px 0px">
   <h1 style="font-size: 25px;">Johnathan Schwartz</h1>
 </div>
 
